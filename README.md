@@ -18,9 +18,9 @@ This app uses dummy data (pokeData.js) to generate 'cards' in a 'pokemon list' t
   ## App Structure:
   App
    - PokemonList
-    - PokemonCard
-    - PokemonCard
-    - PokemonCard
+      - PokemonCard 
+      - PokemonCard
+      - PokemonCard
     ...etc
 
 ## Available Scripts (from Create React App)
