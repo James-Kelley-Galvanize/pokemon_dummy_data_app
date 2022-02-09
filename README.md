@@ -1,8 +1,29 @@
-# Getting Started with Create React App
+# Pokemon Dummy Data App
+![professor oak](./prof_oak_google.jpeg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About This App
+This app uses dummy data (pokeData.js) to generate 'cards' in a 'pokemon list' to demonstrate interactivity and concepts within React.
 
-## Available Scripts
+**Things to note:**
+  - destructuring can make your React code much easier to read
+  - a class component's render method is a [pure function](https://en.wikipedia.org/wiki/Pure_function)
+  - bind class component methods to the class in its constructor
+  - pass props every step of the way down to where they're needed
+    - you can't skip a step in the tree
+  - architecturally, the class component lives at the top of the tree and handles all stateful logic
+    - it passes stateful values down as props to provide them to child components that need those values
+    - it passes methods down as props to child components
+  - selected pokemon have different styles applied with a different class name provided to them than non-selected pokemon
+
+  ## App Structure:
+  App
+   - PokemonList
+    - PokemonCard
+    - PokemonCard
+    - PokemonCard
+    ...etc
+
+## Available Scripts (from Create React App)
 
 In the project directory, you can run:
 
@@ -38,33 +59,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
