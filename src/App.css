@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  height: 150px;
+  width: 250px;
+  background-color: darkseagreen;
+}
+.selected-card {
+  height: 250px;
+  width: 350px;
+  background-color: darkviolet;
+}
+.pokemon-list {
+  background-color: goldenrod;
+  width: 500px;
+}
